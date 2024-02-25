@@ -48,7 +48,7 @@ Install the necessary Node dependencies:
 
 Since you deleted the local one, you will need to create and edit `/app/public/wp-config.php` with the database information for your Local server. 
 
-In most cases, you can copy and paste `/app/public/wp-config.php` into a new file in the same directory called `wp-config.php`. The Local database credentials are usually as follows:
+In most cases, you can copy and paste `/app/public/wp-config-sample.php` into a new file in the same directory called `wp-config.php`. The Local database credentials are usually as follows:
 
 ```// ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
