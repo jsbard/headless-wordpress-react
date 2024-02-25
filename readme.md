@@ -44,6 +44,31 @@ Install the necessary Node dependencies:
 
 `npm install`
 
+## Configure wp-config.php
+
+Since you deleted the local one, you will need to create and edit `/app/public/wp-config.php` with the database information for your Local server. 
+
+In most cases, you can copy and paste `/app/public/wp-config.php` into a new file in the same directory called `wp-config.php`. The Local database credentials are usually as follows:
+
+```// ** Database settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'local' );
+
+/** Database username */
+define( 'DB_USER', 'root' );
+
+/** Database password */
+define( 'DB_PASSWORD', 'root' );
+
+/** Database hostname */
+define( 'DB_HOST', 'localhost' );
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );```
+
 ## Start the Backend
 
 As this is a headless setup, the backend is decoupled from the frontend and runs on a separate server. Start the backend by clicking "Start Site" in Local.
