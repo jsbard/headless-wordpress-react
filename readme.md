@@ -50,7 +50,8 @@ Since you deleted the local one, you will need to create and edit `/app/public/w
 
 In most cases, you can copy and paste `/app/public/wp-config-sample.php` into a new file in the same directory called `wp-config.php`. The Local database credentials are usually as follows:
 
-```// ** Database settings - You can get this info from your web host ** //
+```php
+// ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'local' );
 
@@ -67,7 +68,8 @@ define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8' );
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );```
+define( 'DB_COLLATE', '' );
+```
 
 ## Start the Backend
 
