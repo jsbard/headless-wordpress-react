@@ -32,7 +32,7 @@ Replace the contents of the `app/` directory:
 
 `rm -rf app/*`\
 `mv -f headless-wordpress-react/* app/`\
-`rm -rf headless-wordpress-react`\
+`rm -rf headless-wordpress-react`
 
 ![A screenshot of a terminal moving the repository files](https://github.com/jsbard/headless-wordpress-react/blob/main/readme-images/move-site.png)
 
@@ -45,6 +45,8 @@ Install the necessary Node dependencies:
 `npm install`
 
 ## Configure wp-config.php
+
+#### You may not have to complete this step. Check if your wp-config.php file exists and is configured correctly. If so, great! You can move to the next step.
 
 Since you deleted the local one, you will need to create and edit `/app/public/wp-config.php` with the database information for your Local server. 
 
