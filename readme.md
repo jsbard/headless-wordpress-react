@@ -1,6 +1,6 @@
 # About This Theme
 
-This is a headless WordPress configuration with a React frontend. It is meant to serve as a template to build out more complex projects and get you up and running quickly with a basic configuration.
+This is a headless WordPress configuration with a React frontend. It is meant to serve as a template to build out more complex projects and get you up and running quickly with a basic configuration. Currently included is a component that fetches and displays the default WordPress posts.
 
 # Getting Started
 
