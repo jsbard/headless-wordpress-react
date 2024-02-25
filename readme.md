@@ -20,7 +20,7 @@ Set up a simple local WordPress installation using Local.
 
 Navigate to the root folder of your WordPress installation in your terminal. Then run:
 
-git clone (https://github.com/jsbard/headless-wordpress-react.git)
+`git clone (https://github.com/jsbard/headless-wordpress-react.git)`
 
 ![A screenshot of a terminal cloning the repository](https://github.com/jsbard/headless-wordpress-react/blob/main/readme-images/clone.png)
 
