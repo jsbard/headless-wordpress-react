@@ -30,9 +30,9 @@ After cloning, if you run `ls -la`, you should see the repository with the `app/
 
 Replace the contents of the `app/` directory:
 
-`rm -rf app/*`
-`mv -f headless-wordpress-react/* app/`
-`rm -rf headless-wordpress-react`
+`rm -rf app/*`\
+`mv -f headless-wordpress-react/* app/`\
+`rm -rf headless-wordpress-react`\
 
 ![A screenshot of a terminal moving the repository files](https://github.com/jsbard/headless-wordpress-react/blob/main/readme-images/move-site.png)
 
